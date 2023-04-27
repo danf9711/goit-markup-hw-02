@@ -1,30 +1,50 @@
-*{list-style: none;
+* {
+  list-style: none;
 }
 a:link,
 a:visited,
 a:active {
   text-decoration: none;
 }
-header {box-sizing: content-box;
-  width: 100%;
-  display: flex;
+.box1 {box-sizing: content-box;
+  position: absolute;
+  width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
-.logo{
-  padding: 24px 1240px 25px 215px;
+.container {
+  display: flex;
+}
+.logo {
+  display: inline-flex;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 32px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
+  text-align: right;
   letter-spacing: 0.03em;
-  color: #2196F3;}
-
-.menu{padding: 32px 866px 32px 453px; 
+  color: #2196f3;
+}
+.menu .link {
+  color: #212121;
+}
+.menu {
+  display: inline-flex;
+  position: absolute;
+  gap: 50px;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -32,17 +52,65 @@ header {box-sizing: content-box;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-  display: inline-flex;
-  }
-.menu .link{ display: inline-flex;
-padding-top: 32px;
-padding-bottom: 32px;
 }
-.menu :hover{font-family: 'Roboto';
+.menu :hover {
+  color: #2196f3;
+}
+.menuiz {
+  display: inline-flex;
+  gap: 50px;
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196F3}
-
+}
+.menuiz .link {
+  color: #757575;
+}
+.menuiz :hover {
+  color: #2196f3;
+}
+.primeraseccion{box-sizing: content-box;}
+.primeraseccion{display: flexbox;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: -4px;
+  top: 80px;
+  background: #2F303A;}
+#titulo{position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 448px;
+  top: 280px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;}
+.boton{ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 261px;
+  height: 50px;
+  left: 666px;
+  top: 430px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px}
