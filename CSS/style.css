@@ -57,7 +57,10 @@ nav {
   gap: 50px;
   list-style: none;
 }
-.menu .link:hover {
+.menu .link:hover{
+  color: #2196f3;
+}
+.menu .link:focus {
   color: #2196f3;
 }
 .menuiz .link {
@@ -70,6 +73,9 @@ nav {
   color: #757575;
 }
 .menuiz .link:hover {
+  color: #2196f3;
+}
+.menuiz .link:focus {
   color: #2196f3;
 }
 a.active {
@@ -105,6 +111,10 @@ a.active {
   color: #ffffff;
 }
 .boton:hover {
+  background: #1e86dc;
+  cursor: pointer;
+}
+.boton:focus {
   background: #1e86dc;
   cursor: pointer;
 }
@@ -180,6 +190,9 @@ p {
 .infocontacto:hover {
   color: #2196f3;
 }
+.infocontacto:focus {
+  color: #2196f3;
+}
 .ubicacion {
   font-family: 'Roboto';
   font-style: normal;
@@ -189,5 +202,8 @@ p {
   color: #ffffff;
 }
 .ubicacion:hover {
+  color: #2196f3;
+}
+.ubicacion:focus {
   color: #2196f3;
 }
